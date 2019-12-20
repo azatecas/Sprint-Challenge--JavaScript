@@ -29,14 +29,29 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+.forEach() can performs a function over every item in the original array
+	.map() similarly performs a funciton over every item in an array but returns a new array.
+
 
 2. What is the difference between a function and a method?
+a normal function is available to the global scope because they are hoisted.
+	a method is a function that lives within the an object and is availble to instances of that object
 
 3. What is closure?
+a closure is when a function nested within another function has the ability to reach out to the outermost functions scope.	
+
 
 4. Describe the four rules of the 'this' keyword.
 
+        1. Global object binding is when the "this"  keyword refers to the  global scope of the document 
+ 		2.  Implicit Binding  is when the this keyword referst to the object left of a (.) syntax
+ 		3.  New binding is when "this" refers to the instance  when the object is created inside the constructor function
+  		4.  Explicit binding is when you use the .Call() .Bind() .Apply() object and this refers to anything passed with it.
+
 5. Why do we need super() in an extended class?
+    
+
+super() in an extended class passes the parameters of the child constructor function to the inherited properties from the parent function
 
 ## Project Set up
 
